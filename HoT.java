@@ -17,6 +17,9 @@ public class HoT {
                 ctT++;
         }
         System.out.println("Heads:" + ctH + ",Tails:" + ctT);
+	if(ctH>ctT){
+	    System.out.println("You win");
+	}else System.out.println("You lost");
     }
 
 }
